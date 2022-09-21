@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+#side-bar{
+    height: 100vh;
+    width: 40vw;
+
+    display: flex;
+    align-items: center;
+
+    background-image: url(images/freckled-corn.jpg);
+    background-size: contain;
+    background-repeat: repeat-y;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 20vh;
+    width: 40vw;
+
+    background-color: #00000080;
+    background-image: url(images/logo.svg);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: 30vw;
+    padding: 0 4rem;
+}
+
