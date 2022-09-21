@@ -3,6 +3,10 @@ body{
     padding: 0;
 }
 
+#container{
+    display: flex;
+}
+
 
 #side-bar{
     height: 100vh;
@@ -11,7 +15,7 @@ body{
     display: flex;
     align-items: center;
 
-    background-image: url(images/freckled-corn.jpg);
+    background-image: url(images/markus-winkler-Hmcpg4cnSRA-unsplash\ \(2\).jpg);
     background-size: cover;
 }
 
@@ -31,3 +35,6 @@ body{
     padding: 0 4rem;
 }
 
+.form-row{
+    display: flex;
+}
