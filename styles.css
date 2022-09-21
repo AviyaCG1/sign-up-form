@@ -43,6 +43,12 @@ body{
     background-color: #eee;
 }
 
+#text{
+    padding: 1.5rem;
+    line-height: 1.3rem;
+    font-weight: 600;
+}
+
 form{
     background-color: #fff;
     box-shadow: 0 0.2rem 0.2rem #00000020;
@@ -71,3 +77,4 @@ ul{
     padding: 0;
 
 }
+
