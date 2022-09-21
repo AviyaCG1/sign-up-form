@@ -35,6 +35,39 @@ body{
     padding: 0 4rem;
 }
 
+#content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: #eee;
+}
+
+form{
+    background-color: #fff;
+    box-shadow: 0 0.2rem 0.2rem #00000020;
+
+    padding: 1.2rem 1.3rem;
+}
+
+#form-header{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
 .form-row{
     display: flex;
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    gap: 1.5rem 3rem;
+    margin-top: 1.5rem;
+
+    font-size: 0.8rem;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
 }
