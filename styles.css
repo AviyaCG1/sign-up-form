@@ -84,9 +84,32 @@ ul{
 
 }
 
+label{
+    font-size: 0.7rem;
+    font-weight: 550;
+    letter-spacing: 0.08rem;
+}
+
+input{
+    border: 1px solid #00000080;
+    border-radius: 4px;
+
+    padding: 0.3rem;
+}
+
+input:invalid{
+    border-color: red;
+}
+
+input:focus{
+    outline: none;
+    border-color: #09f;
+    box-shadow: 0.1rem 0.1rem 0.1rem #00000080;
+}
+
 .validation-rule{
     font-size: 0.75rem;
-    color: #55550090;
+    color: #77770090;
 }
 
 #below-form{
