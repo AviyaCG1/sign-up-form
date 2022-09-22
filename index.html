@@ -28,22 +28,26 @@
                         <li><label for="first-name">FIRST NAME</label></li>
                         <li><input type="text" name="first-name" id="first-name" 
                              placeholder="Corn" pattern="[A-Za-z ]*"required></li>
+                        <li class="validation-rule">Alphabet characters only</li>
                     </ul>
                     <ul>
                         <li><label for="last-name">LAST NAME</label></li>
                         <li><input type="text" name="last-name" id="last-name"
                              placeholder="Smith" pattern="[A-Za-z ]*" required></li>
+                        <li class="validation-rule">Alphbet characters only</li>
                     </ul>
                 </div>
                 <div class="form-row">
                     <ul>
                         <li><label for="email">EMAIL</label></li>
                         <li><input type="email" name="email" id="email" placeholder="corn@freckled.com" required></li>
+                        <li class="validation-rule">*Required</li>
                     </ul>
                     <ul>
                         <li><label for="phone-number">PHONE NUMBER</label></li>
                         <li><input type="tel" name="phone-number" id="phone-number"
                              minlength="7" maxlength="10" placeholder="0001234567" pattern="\d*"></li>
+                             <li class="validation-rule">Digits only</li>
                     </ul>
                 </div>
                 <div class="form-row">
@@ -51,11 +55,13 @@
                         <li><label for="password">PASSWORD</label></li> 
                         <li><input type="password" name="password" id="password" placeholder="asd123"
                             minlength="4" maxlength="8" pattern="\w+|\d+" required></li>
+                        <li class="validation-rule">At least 1 character and 1 digit</li>
                     </ul>
                     <ul>
                         <li><label for="confirm-password">CONFIRM PASSWORD</label></li>
                         <li><input type="password" name="confirm-password" id="confirm-password" placeholder="asd123"
                             minlength="4" maxlength="8" pattern="\w+|\d+" required></li>
+                        <li class="validation-rule">At least 1 character and 1 digit</li>
                     </ul>
                 </div>
             </form>

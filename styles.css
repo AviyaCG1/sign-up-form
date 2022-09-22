@@ -84,6 +84,11 @@ ul{
 
 }
 
+.validation-rule{
+    font-size: 0.75rem;
+    color: #55550090;
+}
+
 #below-form{
     display: flex;
     flex-direction: column;
