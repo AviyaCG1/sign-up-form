@@ -105,6 +105,9 @@ input:focus{
     outline: none;
     border-color: #09f;
     box-shadow: 0.1rem 0.1rem 0.1rem #00000080;
+
+    transition: 40ms;
+    scale: 1.01;
 }
 
 .validation-rule{
@@ -133,5 +136,16 @@ input:focus{
     border: none;
     border-radius: 8px;
     box-shadow: 0 0.2rem 0.2rem #00000020;
+
+    cursor:pointer;
 }
+
+#submit:hover{
+    transition: 60ms;
+    scale: 1.05;
+    box-shadow: 0.1rem 0.2rem 0.4rem #00000040;
+}
+
+
+
 
