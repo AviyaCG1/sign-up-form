@@ -23,10 +23,6 @@ body{
 }
 
 #logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
     height: 20vh;
     width: 40vw;
 
@@ -36,6 +32,11 @@ body{
     background-position: center;
     background-size: 30vw;
     padding: 0 4rem;
+}
+
+#logo:hover{
+    transition: 0.1s;
+    background-size: 30.5vw;
 }
 
 #content{
