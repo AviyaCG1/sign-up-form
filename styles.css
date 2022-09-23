@@ -56,6 +56,29 @@ body{
     font-weight: 600;
 }
 
+#corn-animation{
+    line-height: 1.3rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-style: oblique;
+
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+}
+
+#corn-animation:hover{
+    font-style: normal;
+}
+
+#corn{
+    position: absolute;
+    left: 40vw;
+    top: 30vh;
+
+    transition: 0.5s;
+}
+
 form{
     background-color: #fff;
     box-shadow: 0 0.2rem 0.2rem #00000020;
