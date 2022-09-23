@@ -147,6 +147,10 @@ input:focus{
     box-shadow: 0.1rem 0.2rem 0.4rem #00000040;
 }
 
+a{
+    text-decoration: none;
+}
+
 
 
 

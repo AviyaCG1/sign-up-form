@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="password-validation.js" defer></script>
     <title>Freckled Corn</title>
 </head>
 <body>
@@ -62,13 +63,15 @@
                         <li><label for="confirm-password">CONFIRM PASSWORD</label></li>
                         <li><input type="password" name="confirm-password" id="confirm-password" placeholder="asd123"
                             minlength="4" maxlength="8" pattern="\w+|\d+" required></li>
-                        <li class="validation-rule">*Password do not match</li>
+                        <li id="confirm-password-valid" class="validation-rule">*Password do not match</li>
                     </ul>
                 </div>
             </form>
             <div id="below-form">
                 <button type="submit" id="submit">Create Account</button>
-                <div id="log-in">Already have an account? <a href="">Log in</a></div>
+                <div id="log-in">
+                    Already have an account? <a href="">Log in</a>
+                </div>
             </div>
         </div>
     </div>
