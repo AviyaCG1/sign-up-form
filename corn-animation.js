@@ -12,6 +12,11 @@ function cornJump(){
         corn.style.top = `${top}vh`;
         corn.width = '100';
     } else{
+        const left = random();
+        const top = random();
+
+        corn.style.left = `${left}vw`;
+        corn.style.top = `${top}vh`;
         corn.width = '0';
     }
 }
